@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Roboto+Mono&display=swap');
+
+:root {
+    --primary-color: #12AB7A;
+    --secondary-color:#1C2541;
+    --accent1-color:#F3FFC6;
+    --accent2-color: #F79F79;
+
+    --heading-font: "Chakra Petch", serif;
+    --paragraph-font: "Roboto Mono", serif;
+
+    --nav-background-color: #12ab7a;
+    --nav-link-color: #1c2541;
+    --nav-hover-link-color: #f3ffc6;
+    --nav-hover-background-color: #f79f79;
+}
+
+*{
+    background-color: darkslategray;
+}
+h1 {
+    position: absolute;
+    top: 15%;
+    left: 45%;
+    color: var(--accent1-color);
+    background-color: var(--primary-color);
+    font-family: var(--heading-font);
+}
+
+h2 {
+    color: var(--accent2-color);
+    background-color: var(--secondary-color);
+    font-family: var(--heading-font);
+}
+
+p {
+    color: var(--primary-color);
+    background-color: var(--accent1-color);
+    font-family: var(--paragraph-font)
+}
+a {
+    text-decoration: none;
+}
+
+.hero{
+    position: relative;
+}
+
+article p {
+    display: block;
+    position: absolute;
+    top:25%;
+    left: auto;
+    margin: 60px;
+    margin-right: 400px;
+    background-color: rgb(28, 37, 65, .7);
+    opacity: 100%;
+}
+
+article img{
+    position: absolute;
+    bottom: 240px;
+    right: 100px;
+}
+
+#hero-image {
+    position: relative;
+    display: block;
+    width: 95%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+

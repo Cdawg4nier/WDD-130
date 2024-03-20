@@ -126,6 +126,7 @@ section.adventure{
 }
 
 div.footer-styled{
+    margin: 0 10px;
     display: flex;
     justify-content: end;
 }

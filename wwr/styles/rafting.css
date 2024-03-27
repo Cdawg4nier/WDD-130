@@ -34,8 +34,8 @@ h2 {
 }
 
 p {
-    color: var(--primary-color);
-    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+    background-color: var(--secondary-color);
     font-family: var(--paragraph-font)
 }
 a {
@@ -48,7 +48,7 @@ a {
 
 header{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     align-items: center;
     justify-items: center;
     margin: 15px;
@@ -56,6 +56,12 @@ header{
     padding-right: 50px;
     background-color: var(--secondary-color);
     font-family: var(--heading-font);
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
 }
 
 nav.top-nav {
@@ -129,4 +135,87 @@ div.footer-styled{
     margin: 0 10px;
     display: flex;
     justify-content: end;
+}
+
+footer {
+    text-align: center;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+  }
+
+.contact-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-info {
+    text-align: center;
+    flex: 1;
+    padding: 20px;
+}
+
+.employees {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.employee {
+    text-align: center;
+}
+
+.employee img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: var(--paragraph-font);
+    color: black;
+    background-color: var(--accent1-color);
+}
+
+.form {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: var(--secondary-color);
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+.form h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    background-color: var(--accent1-color);
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: var(--nav-background-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    box-sizing: border-box;
+    background-color: white;
 }

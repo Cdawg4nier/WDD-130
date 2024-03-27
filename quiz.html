@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <header>
+        <h1>Basic HTML and CSS Quiz</h1>
+    </header>
+<main>
+    <form>
+        <fieldset>
+            <div class="quiz-item">
+                <label for="q1">Which element do you use for the bottom of a web page?</label>
+                <input type="text" id="q1" name="q1">
+            </div>
+            <div class="quiz-item">
+                <label for="q2">Write a CSS declaration to change the font-size for a body element with the class "text-area":</label>
+                <textarea id="q2" name="q2" rows="5" placeholder=""> </textarea>
+            </div>
+            <div class="quiz-item">
+                <label for="q3">Which of the following is not a valid CSS rule?</label>
+                <select id="q3" name="q3">
+                    <option value="" selected disabled> Choose One...</option>
+                    <option value="valid-1">margin: 0 auto;</option>
+                    <option value="valid-2">grid-template-columns: 1fr 1fr;</option>
+                    <option value="valid-3">padding: 1rem;</option>
+                    <option value="invalid-1">font-size= 0px;</option>
+                    <option value="valid-4">background-color: red;</option>
+                </select>
+            </div>
+            <div class="quiz-item">
+                <label for="q4">Given the following line of CSS, how many columns will be in the grid?</label>
+                <code>grid-template-columns: 1rem 1rem 1fr 3fr;</code>
+                <input type="number" id="q4" name="q4">
+            </div>
+        </fieldset>
+        <button type="submit">Submit Quiz</button>
+    </form>
+</main>
+<footer>
+    <p>@2024 | HTML Form - Quiz | Christian Fournier</p>
+</footer>
+</body>
+</html>

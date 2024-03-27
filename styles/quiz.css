@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&amp;family=Roboto&amp;display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Merriweather, Georgia, serif;
+    font-size: 20px;
+    color: #000;
+    background: lightgrey;
+}
+
+header {
+    margin: 50px auto;
+    width: 650px;
+    text-align: center;
+}
+
+form {
+    width: 780px;
+    margin: 0 auto;
+    border: 5px solid rgba(0,0,0,0.1);
+    border-radius: 5px;
+    background-color: #eee;
+    display: grid;
+}
+
+
+label, input, button, select, textarea {
+    margin: 10px;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    padding: 10px;
+    font-size: 22px;
+}
+
+button:hover {
+    background-color: cyan;
+}
+.quiz-item {
+    display: grid;
+    align-items: center;
+}
+
+code {
+    font-family: monospace; 
+    background-color: grey;
+    margin: 20px; 
+    padding: 10px 0.4em; 
+    border-radius: 0.3em;
+}

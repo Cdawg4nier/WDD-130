@@ -1,18 +1,11 @@
-<!--Things needed: 
-    Meta and title data
-    Call to action (action opens the contact us page)
-    at least 3 detailed trip descriptions with photos
-    a able outlining all available trips with relevant information (cannot be simple, single column flow)
-    wireframe design sketch. Link image in footer
--->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width>, initial-scale=1.0">
-    <title>Raptor Rafting - About Us Page</title>
+    <title>Raptor Rafting - Trips page</title>
     <link rel="stylesheet" href="styles/rafting.css">
-    <meta name="description" content="All about white water rafting and the company, Raptor Rafting">
+    <meta name="description" content="Information about our different trip options">
     <meta name="author" content="Christian Fournier">
 </head>
 <body>
@@ -26,53 +19,85 @@
         </nav>
     </header>
     <main>
-        <div class="hero">
-            <img src="images/hero_image.png" alt="A Scenic Whitewater river" id="hero-image">
-            <h1>Raptor Rafting</h1>
-            <article>
-                <img src="images/happy_family.png" alt="A very happy client and his family"> <!--Change this to a picture of a happy family-->
-                <p>
-                    Our Purpose:
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere magni eius minus voluptatum rerum est nostrum inventore, provident reprehenderit, mollitia at qui pariatur vel quibusdam ratione tenetur eos.
-
-                    Our Mission:
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt delectus recusandae aliquam fuga! Perspiciatis repellendus dolorum veniam?
-                </p>
-            </article>
+        <div class="call-to-action">
+            <h2>Questions?</h2>
+            <p><a href="contact.html">Click Here!</a></p>
         </div>
-        <section class="history">
-            <h2>History</h2>
-            <p>How we started: Dinosaurs <br>
-                 We started with an idea: How do we capture the same sense of awe and wonder that dinosaurs do? Our founder, Christian Fournier, spent 
-                 years searching for an attraction that captured this feeling of wonder. It wasn't until he sailed down the Colorado River
-                 that he realized what the answer was. White Water Rafting! Now, our goal is to remind you what it was like to be a kid again. 
-                 We want you to feel that sense of wonder and awe, and as white water rafting professionals, we've tailored our experience to do exactly that!
+
+        <h2>Frequently Purchased:</h2>
+        <section class="info">
+            
+            <div class="info-item">
+                <img src="images/single.png" alt="An image of a single person">
+                <p>Singles package: $199</p>
+                <p>Looking for a quick and fun way to kill some time? Or perhaps you're hoping to get better at white water rafting? This package is for you!<br>
+                You will get a full day on the Colorado river with one of our instructors. They will go over everything you need to know from start to finish, and by the end
+                you'll feel confident you could steer the boat yourself!
                 </p>
-        </section>
-        <section class="adventure">
-            <h2 id="adventure-header">Adventure Awaits You!</h2>
-            <figure> 
-                <img src="images/colorado_river.png" alt="A River"> <!--Change this to a picture of white water rafting-->
-                <figcaption>The beautiful Colorado River!</figcaption>
-            </figure>
-            <figure> 
-                <img src="images/safety_technology.png" alt="A River"> <!--Change this to a picture of white water rafting-->
-                <figcaption>Only the Safest Equipment!</figcaption>
-            </figure>
-            <figure> 
-                <img src="images/trained_staff.png" alt="A River"> <!--Change this to a picture of white water rafting-->
-                <figcaption> Fun and Highly Trained Staff!</figcaption>
-            </figure>
-            <figure> 
-                <img src="images/unforgettable_experiences.png" alt="A River"> <!--Change this to a picture of white water rafting-->
-                <figcaption> Life Changing Experiences!</figcaption>
-            </figure>
-            <figure> 
-                <img src="images/building.png" alt="A River"> <!--Change this to a picture of white water rafting-->
-                <figcaption>First Right after exit 183!</figcaption>
-            </figure>
+            </div>
+            <div class="info-item">
+                <img src="images/couples.png" alt="An image of a couple holding hands">
+                <p>Couples package: $299</p>
+                <p>This is the perfect package for those looking to bring a friend along for a day of fun! Whether you are bringing a best friend, your mother, or your significant other,
+                    we promise to provide a wonderful bonding experience on the Colorado River. Though not officially trained, all of our staff are also very good at taking photos!
+                    </p>
+            </div>
+            <div class="info-item">
+                <img src="images/family-package.png" alt="An image of a mother and father with their 2 kids">
+                <p>Family package: $399</p>
+                <p>This is the definition of "fun for the whole family!" You can get a full day of rafting for you and up to 3 family members, regardless of their age! <br>
+                    If you need additional space, you can buy another day pass at $99 perpassenger!
+                    </p>
+            </div>
         </section>
 
+        <h2>Full package selection</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Service</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Singles Package</td>
+                    <td>A full day of rafting with an instructor for a single individual</td>
+                    <td>$199</td>
+                </tr>
+                <tr>
+                    <td>Couples Package</td>
+                    <td>A full day of rafting with an instructor for 2 individuals</td>
+                    <td>$299</td>
+                </tr>
+                <tr>
+                    <td>Family Package</td>
+                    <td>A full day of rafting with an instructor for 4 individuals, with a max of 8</td>
+                    <td>$399, +$99 per guest</td>
+                </tr>
+                <tr>
+                    <td>Frequent Flier Package</td>
+                    <td>3 full days of rafting with an instructor. They do not need to be consecutive days. Valid all year.</td>
+                    <td>$299</td>
+                </tr>
+                <tr>
+                    <td>Elite Frequent Flier Package</td>
+                    <td>3 full days of rafting with an instructor. You may bring 1 guest each day. Days do not need to be consecutive. Valid all year.</td>
+                    <td>$499</td>
+                </tr>
+                <tr>
+                    <td>Frequent Family Package</td>
+                    <td>3 full days of rafting with an instructor, you may bring a total of 4 individuals each day. Days do not need to be consectuve. Valid all year.</td>
+                    <td>$999, +$199 per guest.</td>
+                </tr>
+                <tr>
+                    <td>Unlimited Package</td>
+                    <td>Unlimited rafting with an instructor. Valid all year.</td>
+                    <td>$1999</td>
+                </tr>
+            </tbody>
+        </table>
     </main>
     <footer>
         <nav>
@@ -81,13 +106,13 @@
         </p>
         <div class="footer-styled">
         <a href="https://Youtube.com" class="icon">
-            <img src="images/youtube-icon.webp" alt="The Youtube Logo"> <!--Change this to the youtube logo-->
+            <img src="images/youtube-icon.webp" alt="The Youtube Logo">
         </a>
         <a href="https://Instagram.com" class="icon">
-            <img src="images/instagram-icon.webp" alt="The Instagram Logo"> <!--Change this to the instagram Logo-->
+            <img src="images/instagram-icon.webp" alt="The Instagram Logo">
         </a>
         <a href="https://twitter.com" class="icon">
-            <img src="images/x_icon.webp" alt="The X logo"> <!--Change this to the logo for X-->
+            <img src="images/x_icon.webp" alt="The X logo">
         </a>
     </div>
     </nav>

@@ -1,15 +1,8 @@
-<!-- Things needed
-    Full-width image that includes a heading message
-    newsletter sign up form with name and email
-    call to action with link compelling visitors to visit the trips page
-    a CSS GRID layout with at least 2 additional images about white water rafting site and offerings
-    Wireframe (link in footer)
--->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Raptor Rafting - Main Page</title>
     <link rel="stylesheet" href="styles/rafting.css">
     <meta name="description" content="Main Page Raptor Rafting company">
@@ -26,25 +19,45 @@
         </nav>
     </header>
     <main>
-        
+        <img class="Hero" src="images/Hero.webp" alt="A large picture of a family in a raft going down the colorado river on calm water.">
+        <h2> The best white water rafting in the nation!</h2>
+        <div class="main-page">
+            <div class="call-to-action">
+                <h2>Want to reserve a trip now?</h2>
+                <p><a href="trips.html">Click Here!</a></p>
+            </div>
+            <div class="newsletter">
+                <h2>Interested in exclusive offers?</h2>
+                <p>Subscribe to our newsletter to receive emails containing offers and information!</p>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <input type="submit" value="Subscribe">
+                </form>
+            </div>
+        </div>
+        <div class="grid-container">
+            <div class="grid-item">
+              <img src="images/colorado_river_mountain.png" alt="An picture of the Rocky Mountains with a body of water flowing down and into the foreground">
+              <p>Freshwater from the snow-capped Rocky Mountains!</p>
+            </div>
+            <div class="grid-item">
+              <img src="images/local_wildlife.png" alt="A picture of a bighorn sheep drinking from the Colorado river">
+              <p>Once in a lifetime wildlife!</p>
+            </div>
+          </div>
     </main>
     <footer>
         <nav>
-        <p>
-            ©2024 🐲 Raptor Rafting 🐲 Christian Fournier
-        </p>
-        <div class="footer-styled">
-        <a href="https://Youtube.com" class="icon">
-            <img src="images/youtube-icon.webp" alt="The Youtube Logo"> <!--Change this to the youtube logo-->
-        </a>
-        <a href="https://Instagram.com" class="icon">
-            <img src="images/instagram-icon.webp" alt="The Instagram Logo"> <!--Change this to the instagram Logo-->
-        </a>
-        <a href="https://twitter.com" class="icon">
-            <img src="images/x_icon.webp" alt="The X logo"> <!--Change this to the logo for X-->
-        </a>
-    </div>
-    </nav>
+            <p>©2024 🐲 Raptor Rafting 🐲 Christian Fournier</p>
+            <div class="footer-styled">
+                <a href="https://Youtube.com" class="icon"><img src="images/youtube-icon.webp" alt="The Youtube Logo"></a>
+                <a href="https://Instagram.com" class="icon"><img src="images/instagram-icon.webp" alt="The Instagram Logo"></a>
+                <a href="https://twitter.com" class="icon"><img src="images/x_icon.webp" alt="The X logo"></a>
+            </div>
+        </nav>
     </footer>
 </body>
 </html>
